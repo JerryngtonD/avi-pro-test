@@ -12,7 +12,7 @@
     <h2>Сгенерируй свой id:</h2>
     <form action="/api/generate/" method="post">
       <div>
-        <h3>Выерите тип id:</h3>
+        <h3>Выберите тип id:</h3>
         <input type="radio" id="string"
          name="type" value="string">
         <label for="string">строка</label>
@@ -30,7 +30,7 @@
         <label for="mixed">цифры-буквы</label>
       </div>
       <div>
-        <h3>Выерите длину id:</h3>
+        <h3>Выберите длину id:</h3>
         <input type="radio" id="short"
          name="length" value="5">
         <label for="short">5 символов</label>
